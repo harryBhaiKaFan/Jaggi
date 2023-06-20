@@ -1,0 +1,16 @@
+{
+  "name": "jaggi",
+  "version": "1.0.0",
+  "description": "Jaggi",
+  "scripts": {
+    "setup": "npm install serve eruda",
+    "eruda": "serve -l 4004 ./node_modules/eruda ",
+    "game": "serve ."
+  },
+  "author": "adr420",
+  "license": "ISC",
+  "dependencies": {
+    "eruda": "^3.0.0",
+    "serve": "^14.2.0"
+  }
+}
