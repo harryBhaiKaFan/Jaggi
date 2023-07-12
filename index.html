@@ -9,11 +9,22 @@
 	<link rel="stylesheet" href="css/App.css" type="text/css" media="all" />
 	<script src="js/App.js" type="module" charset="utf-8">
 	</script>
-	
+
+	<script src="http://localhost:4004/eruda.js">
+	</script>
+
+	<script>
+		if(eruda) eruda.init();
+	</script>
 </head>
 <body>
+
+	<div data-fullscreen-btn class="fullscreen-btn">
+	</div>
+
 	<canvas data-screen class="screen">
 		Not Supported!
 	</canvas>
+
 </body>
 </html>

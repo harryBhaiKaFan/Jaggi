@@ -4,7 +4,7 @@
   "description": "Jaggi",
   "scripts": {
     "setup": "npm install serve eruda",
-    "eruda": "serve -l 4004 ./node_modules/eruda ",
+    "eruda": "serve -l 4004 ./node_modules/eruda",
     "game": "serve ."
   },
   "author": "adr420",

@@ -1,7 +1,5 @@
-
-
 export const Game = {
-	init: function(){
-		
-	}
+    CNVS: null,
+    init: function (cnvs) {
+    }
 };
